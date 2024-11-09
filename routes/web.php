@@ -27,5 +27,7 @@ Route::middleware([
     })->name('dashboard');
     Route::get('/new-page', function () {
         return view('livewire.new-page');
-    })->name('new-page');  // Changed the name to 'new-page' to avoid conflict
+    })->name('new-page');  
+    
 });
+    
